@@ -338,3 +338,16 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+# --- BakkesMod plugin build output (release DLLs go to GitHub Releases) ---
+build/
+plugins/
+*.zip
+*.pch
+*.ipch
+*.iobj
+*.ipdb
+*.aps
+*.vcxproj.user
+.vs/
+New folder/
+unsuccessfulbuild

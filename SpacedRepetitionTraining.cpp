@@ -205,7 +205,7 @@ Shot SpacedRepetitionTraining::getNextShot(bool toRemove) {
 	}
 	return nextShot;
 }
-}
+
 void SpacedRepetitionTraining::randomizeCurrBatch() {
 	currBatch.sort([](const Shot& a, const Shot& b) {
 			return rand() < RAND_MAX / 2; // simple randomization
